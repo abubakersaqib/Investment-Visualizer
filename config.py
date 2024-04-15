@@ -1,28 +1,3 @@
-
-#-----Module Description - Drawing Canvas Configuration--------------#
-#
-#  This module contains functions needed for Assignment 1 in
-#  QUT's teaching unit IFB104 "Building IT Systems".  You should put
-#  a copy of this file in the same folder as your solution to the
-#  assignment.  The necessary elements will then be imported
-#  into your program automatically.
-#
-#  NB: Do NOT submit this file with your solution.  Changes made to
-#  this module will have no effect when your assignment is graded
-#  because the markers will use their own copy of the file.  If your
-#  solution relies on changes made to this file it will fail to work
-#  when assessed.
-#
-#--------------------------------------------------------------------#  
-
-
-
-#-----Preamble-------------------------------------------------------#
-#
-# This section defines constants and imports necessary functions
-# used for creating the drawing canvas.
-#
-
 # Setting these constants will force the drawing canvas to open
 # in a specific place on the screen
 canvas_corner_top = None
@@ -61,13 +36,9 @@ canvas_width = grid_width * cell_size + x_margin * 2
 #-----Functions for Maintaining the Drawing Canvas-------------------#
 #
 # The functions in this section are called by the assignment template
-# to manage the drawing canvas used by your program.  Your code must
-# not call these functions and your code must not create its own
-# drawing canvas.
-#
-
+# to manage the drawing canvas used by your program. 
 # Set up the canvas and draw the background for the overall image
-#
+
 def create_drawing_canvas(canvas_title = "Put your solution's title here",
                           background_colour = 'light grey',
                           line_colour = 'slate grey',
