@@ -6,7 +6,7 @@ from random import randint
 
 # Student details
 student_number = 11888288  
-student_name = "Karmanjeet Kaur"
+student_name = "Your Name"
 
 # Check student details
 if not isinstance(student_number, int) or not isinstance(student_name, str):
@@ -14,13 +14,13 @@ if not isinstance(student_number, int) or not isinstance(student_name, str):
     abort()
 
 # Check for configuration and data modules
-config_file = 'assignment_1_config.py'
-data_file = 'assignment_1_data.py'
+config_file = 'config.py'
+data_file = 'data.py'
 
 if isfile(config_file) and isfile(data_file):
     print('\nConfiguration and Data generation modules found ...\n')
-    from assignment_1_config import create_drawing_canvas, release_drawing_canvas, cell_size, grid_width, grid_height
-    from assignment_1_data import test_cases, raw_data 
+    from config import create_drawing_canvas, release_drawing_canvas, cell_size, grid_width, grid_height
+    from data import test_cases, raw_data 
 else:
     print('\nRequired module files missing, aborting!\n')
     abort()
