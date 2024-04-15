@@ -1,28 +1,3 @@
-
-#-----Module Description - Data Set Generation-----------------------#
-#
-#  This module contains a function needed for Assignment 1 in
-#  QUT's teaching unit IFB104 "Building IT Systems".  You should put
-#  a copy of this file in the same folder as your solution to the
-#  assignment.  The necessary element will then be imported
-#  into your program automatically.
-#
-#  NB: Do NOT submit this file with your solution.  Changes made to
-#  this module will have no effect when your assignment is graded
-#  because the markers will use their own copy of the file.  If your
-#  solution relies on changes made to this file it will fail to work
-#  when assessed.
-#
-#--------------------------------------------------------------------#
-
-
-
-#-----Preamble-------------------------------------------------------#
-#
-# This section imports necessary functions used for generating the
-# data set.
-#
-
 # Import standard Python functions needed to support this module.
 from random import randint, choice, seed, shuffle
 from turtle import textinput
@@ -137,19 +112,6 @@ pop_up_tester = True
 #--------------------------------------------------------------------#
 
 
-#-----Data Set Function for Assessing Your Solution------------------#
-#
-# The function in this section is called by the assignment template
-# to generate the data sets used by your program. It creates a random
-# data set defining the overall image to draw.  Your program must
-# work for ANY data set that can be produced by this function.  The
-# results returned by calling this function will be used as the
-# argument to your data visualisation function during marking.  For
-# convenience during code development and marking this function also
-# prints the data set generated to the shell window.  NB: Your own
-# solution should not print anything else to the shell.  Make sure
-# any debugging calls to the "print" function are disabled before
-# you submit your solution.
 
 # Define the months of the year when reports are made
 months = ['January', 'February', 'March', 'April', 'May', 'June',
